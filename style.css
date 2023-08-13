@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+}
+
+#box1 {
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    position: relative;
+    height: 1000px;
+    background-color: red;
+    background-image: url("bur1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px double grey;
+    padding: 10px;
+    height: 50px;
+    transition: border .20s ease-in-out;
+}
+
+.navbar:hover {
+    border-bottom: 6px double red;
+    transition: border .10s ease-in-out;
+}
+
+
+
+li {
+    display: inline-block;
+    transform: scale(1, 1.5);
+    margin: 3px;
+
+}
+
+li a {
+    padding: 5px;
+    color: red;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.1;
+
+}
+
+a:hover {
+
+    color: white;
+    box-shadow: inset 200px 0 0 0 red;
+}
+
+.box2 {
+
+    justify-content: center;
+    border-radius: 30px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    height: 400px;
+
+    background-color: rgba(255, 255, 255, 0.672);
+    transition: background-color 1s ease-in-out;
+
+}
+
+.box2:hover {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 1s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sub1 {
+
+    border-radius: 20px;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    transform: scale(1, 1.2);
+    display: grid;
+    justify-content: center;
+    color: red;
+    letter-spacing: 9px;
+    font-weight: bolder;
+    font-size: 80px;
+    justify-content: center;
+    margin-left: 290px;
+    margin-right: 310px;
+    margin-top: 80px;
+}
+
+.sub1:hover {
+    color: white;
+    box-shadow: inset 500px 0 0 0 red;
+}
+
+
+.sub2 {
+    border-radius: 20px;
+    transform: scale(1, 1.5);
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 220px;
+    margin-right: 231px;
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 50px;
+    letter-spacing: 21.5px;
+    padding-left: 20px;
+
+
+}
+
+.sub2:hover {
+    color: white;
+    box-shadow: inset 550px 0 0 0 red;
+
+}
+
+.box3 {
+
+    border-top-style: solid;
+    border-width: 7px;
+    border-color: grey;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    background-color: rgb(17, 61, 142);
+    padding-top: 20px;
+    color: white;
+    transition: color 1s ease-in-out;
+
+}
+
+.box3:hover {
+
+    color: red;
+    transition: color 1s ease-in-out;
+
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 300%;
+    letter-spacing: 10px;
+}
+
+.box4 {
+    position: relative;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+.text1 {
+
+
+    text-shadow: 2px 4px 4px #000000;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    right: 300px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 5px;
+
+
+}
+
+.text2 {
+    text-shadow: 2px 4px 4px black;
+    color: white;
+    position: absolute;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 50px;
+    top: 400px;
+    left: 400px;
+    right: 400px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.box5 {
+    border-top-style: solid;
+    border-width: 7px;
+    border-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 400px;
+
+}
+
+.circle1 {
+
+    text-align: center;
+    margin-top: 50px;
+    outline: solid red;
+    outline-width: 6px;
+    border: 8px solid orangered;
+    background-color: orangered;
+    height: 300px;
+    width: 300px;
+    border-radius: 150%;
+}
+
+.subcircle1 {
+    border: 6px solid white;
+    margin-top: 5px;
+    margin-left: 4.2px;
+    height: 280px;
+    width: 280px;
+    border-radius: 150%;
+    background-color: rgb(17, 61, 142);
+}
+
+.circle1text {
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 60px;
+    letter-spacing: 5px;
+    line-height: 85px;
+
+}
+
+.wow {
+    color: white;
+    text-shadow: 2px 3px 1px black;
+}
+
+.fresh {
+    color: red;
+    text-shadow: 4px 5px 2px white;
+}
+
+.meat {
+
+    color: red;
+    text-shadow: 4px 5px 2px white;
+}
+
+.circle2 {
+
+    text-align: center;
+    margin-top: 50px;
+    outline: solid red;
+    outline-width: 6px;
+    border: 8px solid orangered;
+    background-color: orangered;
+    height: 300px;
+    width: 300px;
+    border-radius: 150%;
+}
+
+.subcircle2 {
+    border: 6px solid white;
+    margin-top: 5px;
+    margin-left: 4.2px;
+    height: 280px;
+    width: 280px;
+    border-radius: 150%;
+    background-color: orangered;
+}
+
+.handcrafted {
+    text-shadow: 2px 2px 2px white;
+    color: rgb(17, 61, 142);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 44px;
+    padding-top: 60px;
+
+}
+
+.burgers {
+    text-shadow: 2px 2px 3px black;
+    font-size: 57px;
+    color: white;
+}
+
+.circle3 {
+
+    text-align: center;
+    margin-top: 50px;
+    outline: solid red;
+    outline-width: 6px;
+    border: 8px solid orangered;
+    background-color: orangered;
+    height: 300px;
+    width: 300px;
+    border-radius: 150%;
+}
+
+.subcircle3 {
+    border: 6px solid white;
+    margin-top: 5px;
+    margin-left: 4.2px;
+    height: 280px;
+    width: 280px;
+    border-radius: 150%;
+    background-color: rgb(17, 61, 142);
+}
+
+
+.allnatural {
+
+    margin-top: 47px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.ingredients {
+    line-height: 65px;
+    color: red;
+    text-shadow: 4px 5px 2px white;
+    font-size: 53px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+}
+
+.box6 {
+
+    border-top-style: solid;
+    border-width: 7px;
+    border-color: grey;
+    align-items: center;
+    position: relative;
+    height: 120px;
+
+    background-color: rgb(17, 61, 142);
+    padding-top: 20px;
+    color: white;
+    transition: color 1s ease-in-out;
+
+}
+
+.box6:hover {
+    color: red;
+    transition: color 1s ease-in-out;
+
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+.box7 {
+    display: flex;
+    justify-content: center;
+
+    height: 500px;
+}
+
+.subbox1 {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+
+.subbox2 {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+
+}
+
+.subboxtext1 {
+    text-shadow: 2px 2px 3px black;
+    margin-top: 130px;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+}
+
+.subboxtext2 {
+    text-shadow: 2px 2px 3px black;
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.menubutton {
+
+    border: 2px solid red;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    margin-top: 60px;
+    transition: background-color 1s ease-in-out;
+
+}
+
+.menubutton:hover {
+
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    transition: background-color, 1.5s ease-in-out;
+}
+
+.box8 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.subbox3 {
+    height: 500px;
+    width: 500px;
+
+}
+
+.subbox4 {
+    height: 500px;
+    width: 500px;
+
+}
+
+.subboxtext3 {
+    margin-top: 190px;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(43, 76, 137);
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.subboxtext4 {
+    text-shadow: 2px 2px 3px black;
+    color: rgb(17, 61, 142);
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+}
+
+.box9 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+
+}
+
+.subbox5 {
+    height: 500px;
+    width: 500px;
+}
+
+.subbox6 {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+
+}
+
+.subboxtext5 {
+    margin-top: 180px;
+    text-shadow: 2px 2px 3px black;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+}
+
+.subboxtext6 {
+    line-height: 50px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    color: red;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    font-family: sans-serif;
+}
+
+.subboxtext7 {
+    color: red;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-family: cursive;
+
+}
+
+.box10 {
+
+    border-top-style: solid;
+    border-width: 7px;
+    border-color: grey;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    background-color: rgb(17, 61, 142);
+    padding-top: 20px;
+    color: white;
+    transition: color 1s ease-in-out;
+
+}
+
+.box10:hover {
+    color: red;
+    transition: color 1s ease-in-out;
+
+}
+
+.text5 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+.box11 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: rgb(17, 61, 142);
+}
+
+.subbox7 {
+    text-align: center;
+    height: 550px;
+}
+
+.subbox8 {
+    text-align: center;
+    height: 300px;
+
+}
+.subboxtext8{
+    
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+.subboxtext9{
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+.subbox9{
+    margin-top: 20px;
+    height: 100px;
+    background-color: black;
+}
+.forms{
+    margin-top: 150px;
+    display: grid;
+    text-align: start;
+    justify-content: start;
+}
+.onebar{
+    border: 2px solid black;
+    padding-left:400px ;
+    padding-top: 20px;
+}
+.secondbar{
+    border: 2px solid black;
+    padding-left:360px ;
+    padding-top: 20px;
+}
+.thirdbar{
+    border: 2px solid black;
+    padding-left:377px ;
+    padding-top: 20px;
+}
+.onebartext{
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+.secondbartext{
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+.thirdbartext{
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+.box12{
+    display: flex;
+    justify-content: center;
+    height:60px;
+   background-color: grey;
+    border-top-style: solid;
+    border-width: 7px;
+    
+}
+.box12text1{
+    color: red;
+    
+    padding-top: 20px;
+    font-weight:900;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-family:cursive ;
+    text-align: center;
+    
+    text-shadow: 1px 1px 1px black;
+}
