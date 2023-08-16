@@ -1,62 +1,3 @@
-html {
-    font-size: 62.5%;
-}
-@media(max-width:1375px){
-    html {
-     font-size: 55%;
-    }
- }
-@media(max-width:1215px){
-   html {
-    font-size: 50%;
-   }
-}
-@media(max-width:1100px){
-    html {
-     font-size: 45%;
-    }
- }
- @media(max-width:985px){
-    html {
-     font-size: 40%;
-    }
- }
- @media(max-width:880px){
-    html {
-     font-size: 35%;
-    }
- }
- @media(max-width:767px){
-    html {
-     font-size: 30%;
-    }
- }
- @media(max-width:660px){
-    html {
-     font-size: 25%;
-    }
- }
- @media(max-width:548px){
-    html {
-     font-size: 20%;
-    }
- }
- @media(max-width:436px){
-    html {
-     font-size: 15%;
-    }
- }
- @media(max-width:334px){
-    html {
-     font-size: 12%;
-    }
- }
- @media(max-width:262px){
-    html {
-     font-size: 10%;
-    }
- }
-
 * {
     margin: 0;
     padding: 0;
@@ -67,12 +8,85 @@ body {
     background-color: white;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+@media(max-width:1375px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:1215px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media(max-width:1100px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:985px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media(max-width:880px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media(max-width:767px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media(max-width:660px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media(max-width:548px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media(max-width:436px) {
+    html {
+        font-size: 15%;
+    }
+}
+
+@media(max-width:334px) {
+    html {
+        font-size: 12%;
+    }
+}
+
+@media(max-width:262px) {
+    html {
+        font-size: 10%;
+    }
+}
+
+
+
 #box1 {
 
     height: 100rem;
-    
+
 }
-.textburger{
+
+.textburger {
     display: inline-block;
     justify-content: center;
     text-align: center;
@@ -85,13 +99,14 @@ body {
     font-size: 6rem;
     letter-spacing: 2.5rem;
     color: red;
-   text-shadow: .1rem 1rem .1rem white;
-    
+    text-shadow: .1rem 1rem .1rem white;
+
 
 }
-.textcorner{
-    
-    
+
+.textcorner {
+
+
     text-align: center;
     position: absolute;
     top: 50rem;
@@ -109,15 +124,16 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    border-bottom: .4rem double grey;
+    border-bottom: .4rem solid grey;
     padding: 1rem;
     height: 5rem;
-    transition: border .20s ease-in-out;
+    transition: border .6s ease-in-out;
+  
 }
 
 .navbar:hover {
-    border-bottom: .6px rem red;
-    transition: border .10s ease-in-out;
+    border-bottom: .4rem solid red ;
+    transition: border .3s ease-in-out,
 }
 
 
@@ -242,7 +258,7 @@ img {
     background-color: orangered;
     height: 30rem;
     width: 30rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
 }
 
 .subcircle1 {
@@ -251,7 +267,7 @@ img {
     margin-left: 0.42rem;
     height: 28rem;
     width: 28rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
     background-color: rgb(17, 61, 142);
 }
 
@@ -291,7 +307,7 @@ img {
     background-color: orangered;
     height: 30rem;
     width: 30rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
 }
 
 .subcircle2 {
@@ -300,7 +316,7 @@ img {
     margin-left: 0.42rem;
     height: 28rem;
     width: 28rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
     background-color: orangered;
 }
 
@@ -330,7 +346,7 @@ img {
     background-color: orangered;
     height: 30rem;
     width: 30rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
 }
 
 .subcircle3 {
@@ -339,7 +355,7 @@ img {
     margin-left: 0.42rem;
     height: 28rem;
     width: 28rem;
-    border-radius: 2.4rem;
+    border-radius: 24rem;
     background-color: rgb(17, 61, 142);
 }
 
@@ -371,7 +387,6 @@ img {
     align-items: center;
     position: relative;
     height: 12rem;
-
     background-color: rgb(17, 61, 142);
     padding-top: 2rem;
     color: white;
@@ -442,7 +457,7 @@ img {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     padding-left: 3rem;
-    padding-right: 30rem;
+    padding-right: 3rem;
     font-size: 1.5rem;
     font-family: sans-serif;
     font-weight: bold;
@@ -600,8 +615,9 @@ img {
     height: 30rem;
 
 }
-.subboxtext8{
-    
+
+.subboxtext8 {
+
     text-shadow: .2rem .2rem .3rem black;
     letter-spacing: 0rem;
     font-size: 2.5rem;
@@ -609,7 +625,8 @@ img {
     color: white;
     font-family: sans-serif;
 }
-.subboxtext9{
+
+.subboxtext9 {
     text-shadow: .2rem .2rem .3rem black;
     letter-spacing: 0rem;
     font-size: 2.5rem;
@@ -617,49 +634,58 @@ img {
     color: white;
     font-family: sans-serif;
 }
-.subbox9{
+
+.subbox9 {
+    background-color: black;
     margin-top: 2rem;
     height: 40rem;
     background-color: black;
 }
-.subbox9 iframe{
+
+.subbox9 iframe {
     height: 100%;
     width: 100%;
 }
-.forms{
+
+.forms {
+    display: flex;
+    flex-direction: column;
     margin-top: 15rem;
-    display: grid;
     text-align: start;
-    justify-content: start;
 }
-.forms form{
-    height: 100%;
+
+
+.onebar {
+    font-size: 1.5rem;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
     width: 100%;
-}
-.onebar{
     border: .2rem solid black;
-    padding-left:40rem ;
     padding-top: 2rem;
 }
-.secondbar{
+
+.secondbar {
+    font-size: 1.5rem;
+    font-family: monospace;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    width: 100%;
     border: .2rem solid black;
-    padding-left:36rem ;
     padding-top: 2rem;
 }
-.thirdbar{
+
+.thirdbar {
+    font-size: 1.5rem;
+    font-family: monospace;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    width: 100%;
     border: .2rem solid black;
-    padding-left:37.7rem ;
     padding-top: 2rem;
 }
-.onebartext{
-    text-shadow:.2rem .2rem .2rem black;
-    letter-spacing: 0rem;
-    font-size: 2rem;
-    font-weight: bolder;
-    color: white;
-    font-family: sans-serif;
-}
-.secondbartext{
+
+.onebartext {
     text-shadow: .2rem .2rem .2rem black;
     letter-spacing: 0rem;
     font-size: 2rem;
@@ -667,7 +693,8 @@ img {
     color: white;
     font-family: sans-serif;
 }
-.thirdbartext{
+
+.secondbartext {
     text-shadow: .2rem .2rem .2rem black;
     letter-spacing: 0rem;
     font-size: 2rem;
@@ -675,25 +702,34 @@ img {
     color: white;
     font-family: sans-serif;
 }
-.box12{
+
+.thirdbartext {
+    text-shadow: .2rem .2rem .2rem black;
+    letter-spacing: 0rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+
+.box12 {
     display: flex;
     justify-content: center;
-    height:6rem;
-   background-color: grey;
+    height: 6rem;
+    background-color: grey;
     border-top-style: solid;
     border-width: .7rem;
-    
+
 }
-.box12text1{
+
+.box12text1 {
     color: red;
-    
     padding-top: 2rem;
-    font-weight:900;
+    font-weight: 900;
     font-size: 1.2rem;
     letter-spacing: .5rem;
     font-style: oblique;
-    font-family:cursive ;
+    font-family: cursive;
     text-align: center;
-    
     text-shadow: .1rem .1rem .1rem black;
 }
