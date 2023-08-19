@@ -24,7 +24,7 @@ a {
 
 
 a:hover {
-    color: orange;
+    color: red;
 }
 
 /* header */
@@ -61,7 +61,7 @@ header {
 }
 
 .action_btn {
-    background-color: orange;
+    background-color: red;
     color: white;
     padding: 0.8rem 1.3rem;
     border: none;
@@ -257,40 +257,62 @@ header {
 }
 
 .box1 {
+    height: 80rem;
     justify-content: center;
     position: relative;
     text-align: center;
 }
-
-.textburger {
+.shaheer{
+    border-radius: 3rem;
+    text-align: center;
     position: absolute;
     top: 20%;
-    left: 30%;
-    right: 30%;
+    right: 22%;
     bottom: 20%;
+    left: 22%;
+    height: 40rem;
+    width: 80rem;
+    background-color: rgba(128, 128, 128, 0.556);
+    transition: background-color 1s ease-in-out;
+}
+.shaheer:hover{
+    background-color: rgba(128, 128, 128, 0);
+    transition: background-color 1s ease-in-out;
+}
+
+.textburger {
+    margin-top: 8rem;
     font-weight: bold;
-    font-family: cursive;
-    font-size: 6rem;
+    font-size: 4rem;
     letter-spacing: 2.5rem;
     color: red;
-    text-shadow: .1rem 1rem .1rem black;
-
-
+    text-shadow: .2rem .2rem .2rem black;
+    transition: color 1s ease;
+}
+.textburger:hover{
+    color: white;
+    transition: color 1s ease;
+    scale: 1.05;
+}
+.textburger :active{
+    scale: 0.95;
 }
 
 .textcorner {
-
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    right: 10%;
-    bottom: 20%;
     font-weight: bold;
-    font-family: cursive;
-    font-size: 6rem;
+    transition: color 1s ease;
+    font-size: 4.5rem;
     letter-spacing: 1rem;
     color: red;
-    text-shadow: .1rem 1rem .1rem black;
+    text-shadow: .2rem .2rem .2rem black;
+}
+.textcorner:hover{
+    color: white;
+    transition: color 1s ease;
+    scale: 1.05;
+}
+.textcorner:active{
+    scale: 0.95;
 }
 
 .box3 {
@@ -768,15 +790,35 @@ img {
 }
 
 .subbox9 {
-    background-color: black;
+   
     margin-top: 2rem;
     height: 40rem;
-    background-color: black;
+    
 }
 
-.subbox9 iframe {
-    height: 100%;
-    width: 100%;
+.map {
+    border: .2rem solid red;
+    border-radius: .6rem;
+    letter-spacing: .2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(2, 46, 61, 0.899);
+    margin-top: 18rem;
+    transition: background-color 1s ease-in-out;
+
+}
+
+.map:hover {
+    border-radius: .6rem;
+    color: white;
+    background-color: red;
+    transition: background-color, 1.5s ease-in-out;
 }
 
 .forms {
