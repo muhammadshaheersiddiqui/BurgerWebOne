@@ -102,7 +102,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 250px;
+    height: 260px;
 }
 
 .dropdown_menu li {
@@ -124,6 +124,7 @@ header {
     html {
         font-size: 55%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -134,6 +135,7 @@ header {
     html {
         font-size: 50%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -144,6 +146,7 @@ header {
     html {
         font-size: 45%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -154,6 +157,7 @@ header {
     html {
         font-size: 40%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -164,6 +168,7 @@ header {
     html {
         font-size: 35%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -174,6 +179,7 @@ header {
     html {
         font-size: 30%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
@@ -184,51 +190,13 @@ header {
     html {
         font-size: 25%;
     }
+
     .navbar .logo a {
         font-size: 4rem;
         font-weight: bold;
     }
 }
 
-@media(max-width:548px) {
-    html {
-        font-size: 20%;
-    }
-    .navbar .logo a {
-        font-size: 4rem;
-        font-weight: bold;
-    }
-}
-
-@media(max-width:436px) {
-    html {
-        font-size: 18%;
-    }
-    .navbar .logo a {
-        font-size: 4rem;
-        font-weight: bold;
-    }
-}
-
-@media(max-width:334px) {
-    html {
-        font-size: 12%;
-    }
-    .navbar .logo a {
-        font-size: 4rem;
-        font-weight: bold;
-    }
-}
-
-@media(max-width:262px) {
-    html {
-        font-size: 10%;
-    }
-    .navbar .logo a {
-        font-size: 4rem;
-        font-weight: bold;
-    }
-}
 @media (max-width: 600px) {
 
     .navbar .link,
@@ -246,21 +214,48 @@ header {
         width: unset;
     }
 }
-@media (max-width: 548px){
+
+@media(max-width:436px) {
+    html {
+        font-size: 18%;
+    }
+
+    .navbar .logo a {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
     .dropdown_menu.open {
-        height: 200px;
+        height: 195px;
     }
 }
-     @media (max-width: 436px){
-        .dropdown_menu.open {
-            height: 180px;
-        }
-}
-@media (max-width: 334px){
+
+@media(max-width:334px) {
+    html {
+        font-size: 12%;
+    }
+
+    .navbar .logo a {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
     .dropdown_menu.open {
         height: 130px;
     }
 }
+
+@media(max-width:262px) {
+    html {
+        font-size: 10%;
+    }
+
+    .navbar .logo a {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+}
+
 .box1 {
     justify-content: center;
     position: relative;
