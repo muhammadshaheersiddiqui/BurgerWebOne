@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com
+/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Burger-Hut</a></div>
+            <ul class="link">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#box6">WHAT'S NEW</a></li>
+                <li><a href="index.html#box3">OUR KITCHEN</a></li>
+                <li><a href="MENU">MENU</a></li>
+                <li><a href="RESERVATION">RESERVATION</a></li>
+                <li><a href="index.html#box10">CONTACT</a></li>
+                <li><a href="ORDER ONLINE">ORDER ONLINE</a></li>
+                <li><a href="LOG IN">LOG IN</a></li>
+            </ul>
+            <a href="#" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#box6">WHAT'S NEW</a></li>
+            <li><a href="index.html#box3">OUR KITCHEN</a></li>
+            <li><a href="MENU">MENU</a></li>
+            <li><a href="RESERVATION">RESERVATION</a></li>
+            <li><a href="index.html#box10">CONTACT</a></li>
+            <li><a href="ORDER ONLINE">ORDER ONLINE</a></li>
+            <li><a href="LOG IN">LOG IN</a></li>
+            <li><a href="#" class="action_btn">Get Started</a></li>
+        </div>
+    </header>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+    <div class="ourmenu">
+        <a href="menu.html">
+            <h1>OUR MENU</h1>
+        </a>
+    </div>
+    <div class="maincontainer">
+        <div class="burg">BURGERS</div>
+    </div>
+    <div class="sherry">
+        <div class="maincontainer2">
+
+            <div class="imgbug1"><img src="1.webp" alt=""></div>
+            <div class="imgbug1"><img src="2.webp" alt=""></div>
+            <div class="imgbug1"><img src="3.webp" alt=""></div>
+            <div class="imgbug1"><img src="4.webp" alt=""></div>
+
+        </div>
+        <div class="maincontainer3">
+            <div class="classic">
+                <h1 class="menutext1">CLASSIC BURGER</h1>
+                <pre class="menutext2">....................................................................</pre>
+                <pre class="menutext3">$19.99</pre>
+            </div>
+            <div class="para1">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="cheese">
+                <h1 class="menutext4">CHEESE BURGER</h1>
+                <pre class="menutext5">........................................................................</pre>
+                <pre class="menutext6">$7.99</pre>
+            </div>
+            <div class="para2">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="onion">
+                <h1 class="menutext7">ONION BURGER</h1>
+                <pre
+                    class="menutext8">..............................................................................</pre>
+                <pre class="menutext9">$8.99</pre>
+            </div>
+            <div class="para3">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="chicken">
+                <h1 class="menutext10">CHICKEN BURGER</h1>
+                <pre class="menutext11">.................................................................</pre>
+                <pre class="menutext12">$18.99</pre>
+            </div>
+            <div class="para4">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+        </div>
+    </div>
+    <div class="maincontainer4">
+        <div class="side_dishes">SIDE DISHES</div>
+    </div>
+    <div class="sherry2">
+        <div class="maincontainer5">
+
+            <div class="imgbug2"><img src="5.webp" alt=""></div>
+            <div class="imgbug2"><img src="6.webp" alt=""></div>
+            <div class="imgbug2"><img src="7.webp" alt=""></div>
+            <div class="imgbug2"><img src="8.webp" alt=""></div>
+
+        </div>
+        <div class="maincontainer6">
+            <div class="french">
+                <h1 class="menutext13">FRENCH FRIES</h1>
+                <pre
+                    class="menutext14">......................................................................................</pre>
+                <pre class="menutext15">$12</pre>
+            </div>
+            <div class="para5">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="potato">
+                <h1 class="menutext16">POTATO WEDGES</h1>
+                <pre class="menutext17">.........................................................................</pre>
+                <pre class="menutext18">$7.50</pre>
+            </div>
+            <div class="para6">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="ring">
+                <h1 class="menutext19">ONION RINGS</h1>
+                <pre
+                    class="menutext20">......................................................................................</pre>
+                <pre class="menutext21">$1.99</pre>
+            </div>
+            <div class="para7">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+            <div class="mashed">
+                <h1 class="menutext22">MASHED POTATOS</h1>
+                <pre class="menutext23">....................................................................</pre>
+                <pre class="menutext24">$9.99</pre>
+            </div>
+            <div class="para8">
+                <p>"A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese,
+                    lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise,
+                    relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently
+                    placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger"</p>
+            </div>
+        </div>
+    </div>
+        <div class="end_menu">
+            <p class="endtext1">"Made By MUHAMMAD SHAHEER SIDDIQUI" DATED:13/AUG/2023"</p><br>
+        </div>
+</body>

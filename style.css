@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 }
 
 html {
+
     font-size: 62.5%;
 }
 
@@ -262,7 +264,8 @@ header {
     position: relative;
     text-align: center;
 }
-.shaheer{
+
+.shaheer {
     border-radius: 3rem;
     text-align: center;
     position: absolute;
@@ -275,7 +278,8 @@ header {
     background-color: rgba(128, 128, 128, 0.556);
     transition: background-color 1s ease-in-out;
 }
-.shaheer:hover{
+
+.shaheer:hover {
     background-color: rgba(128, 128, 128, 0);
     transition: background-color 1s ease-in-out;
 }
@@ -289,12 +293,14 @@ header {
     text-shadow: .2rem .2rem .2rem black;
     transition: color 1s ease;
 }
-.textburger:hover{
+
+.textburger:hover {
     color: white;
     transition: color 1s ease;
     scale: 1.05;
 }
-.textburger :active{
+
+.textburger :active {
     scale: 0.95;
 }
 
@@ -306,16 +312,18 @@ header {
     color: red;
     text-shadow: .2rem .2rem .2rem black;
 }
-.textcorner:hover{
+
+.textcorner:hover {
     color: white;
     transition: color 1s ease;
     scale: 1.05;
 }
-.textcorner:active{
+
+.textcorner:active {
     scale: 0.95;
 }
 
-.box3 {
+#box3 {
     border-top-style: solid;
     border-width: .7rem;
     border-color: grey;
@@ -329,7 +337,7 @@ header {
 
 }
 
-.box3:hover {
+#box3:hover {
 
     color: red;
     transition: color 1s ease-in-out;
@@ -346,7 +354,7 @@ header {
     letter-spacing: 1rem;
 }
 
-.box4 {
+#box4 {
     position: relative;
     background-repeat: no-repeat;
     height: 60rem;
@@ -523,7 +531,7 @@ img {
 }
 
 .ingredients {
-    line-height: 6.5rem;
+    line-height: 11rem;
     color: red;
     text-shadow: .4rem .5rem .2rem white;
     font-size: 5.3rem;
@@ -531,7 +539,7 @@ img {
     letter-spacing: 0rem;
 }
 
-.box6 {
+#box6 {
 
     border-top-style: solid;
     border-width: .7rem;
@@ -546,7 +554,7 @@ img {
 
 }
 
-.box6:hover {
+#box6:hover {
     color: red;
     transition: color 1s ease-in-out;
 
@@ -562,7 +570,7 @@ img {
     letter-spacing: .5rem;
 }
 
-.box7 {
+#box7 {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -720,7 +728,7 @@ img {
 
 }
 
-.box10 {
+#box10 {
 
     border-top-style: solid;
     border-width: .7rem;
@@ -735,7 +743,7 @@ img {
 
 }
 
-.box10:hover {
+#box10:hover {
     color: red;
     transition: color 1s ease-in-out;
 
@@ -790,10 +798,13 @@ img {
 }
 
 .subbox9 {
-   
     margin-top: 2rem;
     height: 40rem;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .map {
@@ -808,8 +819,8 @@ img {
     font-family: sans-serif;
     font-weight: bold;
     color: white;
+    margin-top: 4rem;
     background-color: rgba(2, 46, 61, 0.899);
-    margin-top: 18rem;
     transition: background-color 1s ease-in-out;
 
 }
@@ -819,6 +830,15 @@ img {
     color: white;
     background-color: red;
     transition: background-color, 1.5s ease-in-out;
+}
+
+.contacttext {
+    color: red;
+    text-shadow: .2rem .2rem .3rem black;
+    letter-spacing: 0rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: sans-serif;
 }
 
 .forms {
@@ -897,6 +917,384 @@ img {
 }
 
 .box12text1 {
+    color: red;
+    padding-top: 2rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: .1rem .1rem .1rem black;
+}
+
+
+.ourmenu a {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: .1rem .1rem .2rem black;
+    font-size: 2rem;
+    transition: color 1s ease-in-out;
+}
+
+.ourmenu a:hover {
+    color: red;
+    transition: color 1s ease-in-out;
+    scale: 1.05;
+}
+
+.ourmenu a:active {
+    scale: 0.95;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+}
+.burg {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: start;
+    color: white;
+    letter-spacing: 0;
+    text-shadow: .1rem .1rem .2rem black;
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: color 1s ease-in-out, border 1s ease-in-out;
+}
+.burg:hover {
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    color: red;
+    transition: color 1s ease-in-out, border 1s ease-in-out;
+}
+.burg:active {
+    scale: 0.99;
+}
+.sherry{
+ 
+    position: relative;
+    display: flex;
+}
+.maincontainer2{
+    margin-left: 15%;
+    margin-right: 3%;
+    margin-top: 5%;
+  
+    width: 20%;
+}
+.imgbug1{
+    margin-top: 20%;
+    border: 1px solid white;
+}
+.maincontainer3{
+ 
+    margin-top: 5%;
+    width: 50%;
+}
+.classic{
+    margin-top: 8%;
+    display: flex;
+  
+}
+.menutext1{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext2{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+  
+}
+.menutext3{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para1{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.cheese{
+    margin-top: 9%;
+    display: flex;
+}
+.menutext4{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext5{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+}
+.menutext6{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para2{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.onion{
+    margin-top: 9%;
+    display: flex;
+    
+}
+.menutext7{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext8{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+    
+}
+.menutext9{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para3{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.chicken{
+    margin-top: 9%;
+    display: flex;
+    
+}
+.menutext10{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext11{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+  
+}
+.menutext12{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para4{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.maincontainer4 {
+    display: flex;
+}
+.side_dishes {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: start;
+    color: white;
+    letter-spacing: 0;
+    text-shadow: .1rem .1rem .2rem black;
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: color 1s ease-in-out, border 1s ease-in-out;
+}
+.side_dishes:hover {
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    color: red;
+    transition: color 1s ease-in-out, border 1s ease-in-out;
+}
+.side_dishes:active {
+    scale: 0.99;
+}
+.sherry2{
+   
+    display: flex;
+}
+.maincontainer5{
+    margin-left: 15%;
+    margin-right: 3%;
+    margin-top: 5%;
+   
+    width: 20%;
+
+    
+}
+.imgbug2{
+    height: 12%;
+    width:100%;
+    margin-top: 19%;
+    border: 1px solid white;
+}
+.maincontainer6{
+   
+    margin-top: 5%;
+    width: 50%;
+    height: 100%;
+}
+.french{
+    margin-top: 7%;
+    display: flex;
+  
+}
+.menutext13{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext14{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+  
+}
+.menutext15{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para5{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.potato{
+    margin-top: 10%;
+    display: flex;
+}
+.menutext16{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext17{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+}
+.menutext18{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para6{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.ring{
+    margin-top: 9%;
+    display: flex;
+    
+}
+.menutext19{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext20{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+    
+}
+.menutext21{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para7{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.mashed{
+    margin-top: 9%;
+    display: flex;
+    
+}
+.menutext22{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.menutext23{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+    padding-top: 2.6%;
+  
+}
+.menutext24{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    padding-top: 1%;
+    color: red;
+}
+.para8{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.end_menu {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    background-color: white;
+}
+
+.endtext1 {
     color: red;
     padding-top: 2rem;
     font-weight: 900;
