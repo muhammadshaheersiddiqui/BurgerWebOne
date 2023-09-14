@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com
+/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER ONLINE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Burger-Hut</a></div>
+            <ul class="link">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#box6">WHAT'S NEW</a></li>
+                <li><a href="index.html#box3">OUR KITCHEN</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="index.html#box10">CONTACT</a></li>
+                <li><a href="orderonline.html">ORDER ONLINE</a></li>
+                <li><a href="login.html">LOG IN</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#box6">WHAT'S NEW</a></li>
+            <li><a href="index.html#box3">OUR KITCHEN</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="reservation.html">RESERVATION</a></li>
+            <li><a href="index.html#box10">CONTACT</a></li>
+            <li><a href="orderonline.html">ORDER ONLINE</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="login.html" class="action_btn">Get Started</a></li>
+        </div>
+    </header>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+    
+    <div id="menupage">
+        <div class="ourmenu2">
+            <a href="orderonline.html">
+                <h1>ORDER ONLINE</h1>
+            </a>
+        </div>
+        <div class="orderdiv2">
+            <div class="orderform">
+                <select name="menu" id="menu" class="selectmenu" onchange="location = this.value;">
+                    <option value="menu.html">MENU</option>
+                    <option value="orderonline.html#orderdiv4">BURGERS</option>
+                    <option value="orderonline.html#orderdiv6">SIDE DISHES</option>
+                </select>
+            </div>
+            <div class="orderbuttons">
+                <button class="order1"><a href="orderonline.html#orderdiv4">BURGER</a></button>
+                <button class="order1"><a href="orderonline.html#orderdiv6">SIDE DISHES</a></button>
+            </div>
+        </div>
+        <div class="orderdiv3">
+            <h1>MENU</h1>
+            <h1>BURGERS :</h1>
+        </div>
+          <div id="orderdiv4">
+            <div class="div4sub1">
+                <div class="sub1par ">
+                    <h1>CLASSIC BURGER</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$12.99</h1>
+                </div>
+                <div class="sub1bur"><img src="1.jpg" alt=""></div>
+            </div>
+            <div class="div4sub2">
+                <div class="sub2par">
+                    <h1>CHEESE BURGER</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$9.99</h1>
+                </div>
+                <div class="sub2bur"><img src="2.webp" alt=""></div>
+            </div>
+          </div>
+
+          <div class="orderdiv5">
+            <div class="div5sub3">
+                <div class="sub3par ">
+                    <h1>ONION BURGER</h1>
+                    <p class="middlepara2">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$6.99</h1>
+                </div>
+                <div class="sub3bur"><img src="3.webp" alt=""></div>
+            </div>
+            <div class="div5sub4">
+                <div class="sub4par">
+                    <h1>CHICKEN BURGER</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$9.99</h1>
+                </div>
+                <div class="sub4bur"><img src="4.webp" alt=""></div>
+            </div>
+          </div>
+          <div class="headsidedishes">
+            <h1>SIDE DISHES :</h1>
+        </div>
+
+        <div id="orderdiv6">
+            <div class="div6sub5">
+                <div class="sub5par ">
+                    <h1>FRENCH FRIES</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$2.99</h1>
+                </div>
+                <div class="sub5bur"><img src="5.jpg" alt=""></div>
+            </div>
+            <div class="div6sub6">
+                <div class="sub6par">
+                    <h1>POTATO WEDGES</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$1.99</h1>
+                </div>
+                <div class="sub6bur"><img src="6.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="orderdiv7">
+            <div class="div7sub7">
+                <div class="sub7par ">
+                    <h1>ONION RINGS</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$1.99</h1>
+                </div>
+                <div class="sub7bur"><img src="7.jpg" alt=""></div>
+            </div>
+            <div class="div7sub8">
+                <div class="sub8par">
+                    <h1>MASHED POTATOES</h1>
+                    <p class="middlepara1">"It is made up of a bun, a ground meat patty, and various toppings like cheese, onion slices, lettuce, and other sauces. They are so soft yet crunchy, fresh and juicy that I love eating them. Even though there are many kinds of burgers, my favourite one is a chicken burger."</p>    
+                    <h1>$3.99</h1>
+                </div>
+                <div class="sub8bur"><img src="8.jpg" alt=""></div>
+            </div>
+          </div>
+    </div>
+    <div class="box14">
+        <p class="box14text2">"Made By MUHAMMAD SHAHEER SIDDIQUI" DATED:13/AUG/2023"</p><br>
+    </div>
+</body>
