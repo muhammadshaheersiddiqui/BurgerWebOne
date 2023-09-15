@@ -11,25 +11,10 @@
 </head>
 
 
-    <header>
-        <div class="navbar">
-            <div class="logo"><a href="index.html">Burger-Hut</a></div>
-            <ul class="link">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#box6">WHAT'S NEW</a></li>
-                <li><a href="#box3">OUR KITCHEN</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="reservation.html">RESERVATION</a></li>
-                <li><a href="#box10">CONTACT</a></li>
-                <li><a href="orderonline.html">ORDER ONLINE</a></li>
-                <li><a href="login.html">LOG IN</a></li>
-            </ul>
-            <a href="login.html" class="action_btn">Get Started</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
-        <div class="dropdown_menu">
+<header>
+    <div class="navbar">
+        <div class="logo"><a href="index.html">Burger-Hut</a></div>
+        <ul class="link">
             <li><a href="index.html">HOME</a></li>
             <li><a href="#box6">WHAT'S NEW</a></li>
             <li><a href="#box3">OUR KITCHEN</a></li>
@@ -38,25 +23,41 @@
             <li><a href="#box10">CONTACT</a></li>
             <li><a href="orderonline.html">ORDER ONLINE</a></li>
             <li><a href="login.html">LOG IN</a></li>
-            <li><a href="login.html" class="action_btn">Get Started</a></li>
+        </ul>
+        <a href="login.html" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
         </div>
-    </header>
-    <script>
- 
+    </div>
+    <div class="dropdown_menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#box6">WHAT'S NEW</a></li>
+        <li><a href="#box3">OUR KITCHEN</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="reservation.html">RESERVATION</a></li>
+        <li><a href="#box10">CONTACT</a></li>
+        <li><a href="orderonline.html">ORDER ONLINE</a></li>
+        <li><a href="login.html">LOG IN</a></li>
+        <li><a href="login.html" class="action_btn">Get Started</a></li>
+    </div>
+</header>
+<script>
 
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropDownMenu = document.querySelector('.dropdown_menu')
-        toggleBtn.onclick = function () {
-            dropDownMenu.classList.toggle('open')
-            const isOpen = dropDownMenu.classList.contains('open')
-            toggleBtnIcon.classList = isOpen
-                ? 'fa-solid fa-xmark'
-                : 'fa-solid fa-bars'
-        }
-        
-    </script>
-    <body >
+
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+        toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+    }
+
+</script>
+
+<body>
     <div class="box1">
         <img src="hd.jpg" alt="ERROR">
         <div class="shaheer">
@@ -188,7 +189,8 @@
     </div>
     <div class="box12">
         <p class="box12text1">"Made By MUHAMMAD SHAHEER SIDDIQUI" DATED:13/AUG/2023"</p><br>
-        
+
     </div>
 </body>
+
 </html>
